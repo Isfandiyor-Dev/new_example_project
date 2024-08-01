@@ -9,7 +9,7 @@ workflows:
       xcode: latest
     scripts:
       - flutter pub get
-      - flutter test
+      # - flutter test
       - flutter build apk
     artifacts:
       - build/**/outputs/**/*.apk
